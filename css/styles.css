@@ -1,0 +1,158 @@
+/*******GENERALES******/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    padding: 0;
+}
+
+li { 
+    /* Elinminar los bullets de las listas */
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    /* Eliminar el color azul del los links */
+}
+
+
+/*******PAGINA HOME******/
+
+
+header {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);   
+}
+
+.logo{
+    width: 200px;
+    height: 80px;  
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+.menu, .user {
+    display: flex;
+    align-items: center;
+    
+}
+
+.navigation li {
+    margin: 0 10px;
+    
+}
+.navigation li a{
+    color: black;
+}
+
+.mobile-menu {
+    display: none;
+    width: 20px;
+    margin-left: 20px;
+    padding: 19px 0;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+}
+
+.search{
+    width: 600px;
+    height: 30px;
+    border: solid 1px #ccc;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);     
+}
+
+.search-button{
+    width: 100px;
+    height: 30px;
+    border: solid 1px #ccc;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);     
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.container-products {
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    background: #FFFFFF;
+    padding: 20px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
+}
+.product-card {
+    background-color: white;
+    width: 200px;
+    border: 1px solid black;
+}
+.product-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-details p {
+    margin-top: 10px;
+}
+
+.receta-name {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.product-details img{
+    max-width: 100%;
+    
+}
+
+.product-actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.product-actions a {
+    border-radius: 4px; /* Bordes redondeados */
+    gap: 10px;
+}
+
+.add-more {
+    margin: 20px auto;
+    width: 100px;
+    height: 30px;
+    border: solid 1px black;
+    color: black;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
