@@ -5,14 +5,14 @@ fetch(url)
         return res.json();
     })
     .then(function(data){
-        // Accede al array `recipes` dentro de los datos devueltos
+        
         let arrayDeRecetas = data.recipes;
 
-        // Captura el elemento HTML donde deseas hacer modificaciones
+        
         let seccion = document.querySelector('.container-products');
-        let allRecipesHTML = ""; // Inicializar como una cadena vacía
+        let allRecipesHTML = ""; 
 
-        // Recorre el array de recetas y organiza el HTML
+     
         for (let i = 0; i < 10; i++) {
             allRecipesHTML += `<article class="product-card">
                                 <div class="product-details">
@@ -26,7 +26,7 @@ fetch(url)
                               </article>`;
         }
 
-        // Añade el HTML generado al DOM
+        
         seccion.innerHTML = allRecipesHTML;
 
     })
