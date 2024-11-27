@@ -1,16 +1,17 @@
 /*******GENERALES******/
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-ul, ol {
+ul,
+ol {
     padding: 0;
 }
 
-li { 
+li {
     list-style-type: none;
 }
 
@@ -19,18 +20,18 @@ a {
 }
 
 
-/*******PAGINA HOME******/
+/*Home*/
 
 
 header {
     width: 100%;
     background-color: white;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);   
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-.logo{
+.logo {
     width: 200px;
-    height: 80px;  
+    height: 80px;
 }
 
 .navigation {
@@ -40,17 +41,19 @@ header {
     height: 80px;
 }
 
-.menu, .user {
+.menu,
+.user {
     display: flex;
     align-items: center;
-    
+
 }
 
 .navigation li {
     margin: 0 10px;
-    
+
 }
-.navigation li a{
+
+.navigation li a {
     color: black;
 }
 
@@ -66,18 +69,18 @@ header {
     justify-content: center;
 }
 
-.search{
+.search {
     width: 600px;
     height: 30px;
     border: solid 1px #ccc;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);     
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-.search-button{
+.search-button {
     width: 100px;
     height: 30px;
     border: solid 1px #ccc;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);     
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .footer {
@@ -104,11 +107,13 @@ header {
     padding: 20px;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
 }
+
 .product-card {
     background-color: white;
     width: 200px;
     border: 1px solid black;
 }
+
 .product-details {
     display: flex;
     flex-direction: column;
@@ -124,9 +129,9 @@ header {
     font-size: 16px;
 }
 
-.product-details img{
+.product-details img {
     max-width: 100%;
-    
+
 }
 
 .product-actions {
@@ -140,7 +145,7 @@ header {
 }
 
 .product-actions a {
-    border-radius: 4px; 
+    border-radius: 4px;
     gap: 10px;
     color: black;
     text-decoration: underline;
@@ -152,7 +157,7 @@ header {
     height: 30px;
     border: solid 1px black;
     color: black;
-    display: flex;  
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -181,7 +186,7 @@ header {
     justify-content: center;
     align-items: center;
     width: 100%;
-    
+
 }
 
 .login-box {
@@ -192,7 +197,7 @@ header {
     max-width: 500px;
     width: 90%;
     text-align: center;
-    margin-right: 20px; 
+    margin-right: 20px;
 }
 
 .titulo-login {
@@ -252,6 +257,15 @@ input {
     text-decoration: underline;
 }
 
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: rgb(2, 2, 2);
+    padding: 10px;
+    text-align: center;
+}
 
 
 
@@ -289,7 +303,7 @@ header {
 
 
 .boton-registro button {
-    background-color: #223A5E;
+    background-color: #1a5bb8;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -297,11 +311,11 @@ header {
     cursor: pointer;
     justify-content: center;
     display: block;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 .boton-registro button:hover {
-    background-color: #1a2f4e;
+    background-color: #1a5bb8;
 }
 
 .boton-registro {
@@ -313,11 +327,11 @@ header {
         width: 90%;
         padding: 10px;
     }
-    
+
     .Navegacion {
-        display: none; 
+        display: none;
     }
-    
+
     .Navegacion.mobile-menu {
         display: flex;
         flex-direction: column;
@@ -333,3 +347,4 @@ header {
 }
 
 
+/*Categorias*/
